@@ -1,0 +1,35 @@
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.number {
+  background-color: grey;
+}
+
+.op {
+  background-color: orange;
+}
+
+.output-row {
+  text-align: end;
+  padding: 15px;
+  font-size: 20px;
+  background-color: darkgrey;
+}
